@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  background-color: lightgray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.form-row {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 73%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-row > input {
+  padding: 15px;
+  transition: 0.05s;
+  border: none;
+  border-bottom: 3px solid lightgray;
+}
+.form-row > input:focus {
+  outline: none;
+}
+
+.form-row > input::placeholder {
+  font-size: 12px;
+  font-weight: bold;
+  color: lightgrey;
+  text-align: left;
+  margin: 0;
+}
+
+.form-row > input:focus::placeholder {
+  color: #6622b4;
+  border: none;
+}
+
+.form-row > button {
+  padding: 7px;
+  border-radius: 18px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: bolder;
+  background-image: linear-gradient(to left, #15d5f7, #5081e9, #c032eb);
+}
+
+.btn:hover {
+  color: white;
+  background-position: 50% 0%;
+  transition: all 0.4s ease-out;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.a {
+  color: azure;
+  background-color: black;
+  margin: 5px 60px 15px 60px;
+  border-radius: 5px;
+}
+p {
+  font-size: 10px;
+  padding: 4px;
+  word-spacing: 1px;
+}
